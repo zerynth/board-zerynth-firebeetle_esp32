@@ -1,1 +1,2 @@
-# board-zerynth-firebeetle_esp32
+# firebeetle_esp32
+
