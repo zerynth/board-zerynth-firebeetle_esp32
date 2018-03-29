@@ -1,7 +1,7 @@
 /* Port definition */
 
 ////LAYOUT: firebeetle_esp32
-////PERIPHERALS: SERIAL0 SERIAL1 SERIAL2 ADC0 DAC0 PWMD0 SPI0 SPI1 I2C0 I2C1 I2C2 SDIO0
+////PERIPHERALS: SERIAL0 SERIAL1 SERIAL2 ADC0 DAC0 PWMD0 SPI0 SPI1 I2C0 I2C1 I2C2 SD0 SD1 RTC0
 ////CDEFINES: ESP32_VHAL ESP32_ETH_PHY_LAN8720
 
 const PinInfo const _vhalpinmap[] STORED = {
@@ -14,13 +14,13 @@ const PinInfo const _vhalpinmap[] STORED = {
     /* D6   */ MAKE_PIN(PA, 6,  HAS_EXT),
     /* D7   */ MAKE_PIN(PA, 7,  HAS_EXT), //SPI
     /* D8   */ MAKE_PIN(PA, 8,  HAS_EXT), //SPI
-    /* D9   */ MAKE_PIN(PA, 9,  HAS_EXT | HAS_SER), //RX1
+    /* D9   */ MAKE_PIN(PA, 9,  HAS_EXT | HAS_SER),  //RX1
     /* D10  */ MAKE_PIN(PA, 10,  HAS_EXT | HAS_SER), //TX1
     /* D11  */ MAKE_PIN(PA, 11,  HAS_EXT),
     /* D12  */ MAKE_PIN(PA, 12,  HAS_EXT | HAS_SPI), //HSPI_MISO
     /* D13  */ MAKE_PIN(PA, 13,  HAS_EXT | HAS_SPI), //HSPI_MOSI
     /* D14  */ MAKE_PIN(PA, 14,  HAS_EXT | HAS_SPI), //HSPI_CLK
-    /* D15  */ MAKE_PIN(PA, 15,  HAS_EXT) ,
+    /* D15  */ MAKE_PIN(PA, 15,  HAS_EXT),
     /* D16  */ MAKE_PIN(PA, 16,  HAS_EXT | HAS_I2C | HAS_SER), //RX2, SDA1
     /* D17  */ MAKE_PIN(PA, 17,  HAS_EXT | HAS_I2C | HAS_SER), //TX2, SCL1
     /* D18  */ MAKE_PIN(PA, 18,  HAS_EXT | HAS_I2C | HAS_SPI), //VSPI_CLK, SCL2
