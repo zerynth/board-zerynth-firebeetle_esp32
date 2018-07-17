@@ -15,7 +15,7 @@ The main controller supports two power supply methods: USB and 3.7V external lit
 Pin Mapping
 ***********
 
-.. figure:: /custom/img/firebeetle_esp32_pin_io.png
+.. figure:: /custom/img/firebeetle_esp32_pin_io.jpg
    :align: center
    :figwidth: 100% 
    :alt: DFRobot FireBeetle Esp32

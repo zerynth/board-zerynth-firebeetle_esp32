@@ -25,6 +25,7 @@
     "uplink_reset": true,
     "sw_reset_after_register":true,
     "reset_after_uplink": true,
+    "flash_erasable": true,
     "reset_time": 4000,
     "rodata_in_ram":true,
     "connection":{
