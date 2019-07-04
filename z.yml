@@ -1,0 +1,15 @@
+---
+description: Add support for DFRobot FireBeetle ESP32
+fullname: board.zerynth.firebeetle_esp32
+info:
+    board: DFRobot FireBeetle ESP32
+    chip_manufacturer: Espressif
+    device: esp32
+    family_type: Xtensa lx6
+keywords:
+- espressif
+- esp32
+- board
+- DFRobot
+title: DFRobot FireBeetle ESP32 Support Package
+...
